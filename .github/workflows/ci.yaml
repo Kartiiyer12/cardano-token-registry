@@ -223,5 +223,5 @@ echo
       - name: Check optional validation outcome
         if: steps.ledgerxcheck.outputs.status == 'failure' || steps.ismainnetassetcheck.outputs.status == 'failure'
         run: |
-          echo "There were errors during the optional validation steps. Please check the according logs."
+          echo "There were errors during the optional validation steps. Please check the according logs"
           exit 1
