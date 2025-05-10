@@ -1,7 +1,7 @@
 name: CI
 on:
   # Trigger on open, synchronize or reopen PR activity against the default base branch
-  pull_request_target:
+  pull_request:
     branches: [ "master" ]
 
 permissions:
@@ -61,7 +61,7 @@ jobs:
           # git --no-pager diff --name-status origin/"${BASE}" HEAD > "HEAD.diff"
           gh api \
             -H "Accept: application/vnd.github+json" \
-            /repos/cardano-foundation/cardano-token-registry/pulls/${PR}/files \
+            /repos/Kartiiyer12/cardano-token-registry/pulls/${PR}/files \
             | jq --raw-output -c '.[] | [.status, .filename] | @csv' | sed $'s/,/\t/g; s/\"//g; s/added/A/g; s/modified/M/g; s/removed/D/g; s/renamed/R/g; s/copied/C/g; s/changed/T/g; s/unchanged/U/g' \
             > "HEAD.diff"
           cat "HEAD.diff"
@@ -172,7 +172,7 @@ jobs:
           # git --no-pager diff --name-status origin/"${BASE}" HEAD > "HEAD.diff"
           gh api \
             -H "Accept: application/vnd.github+json" \
-            /repos/cardano-foundation/cardano-token-registry/pulls/${PR}/files \
+            /repos/Kartiiyer12/cardano-token-registry/pulls/${PR}/files \
             | jq --raw-output -c '.[] | [.status, .filename] | @csv' | sed $'s/,/\t/g; s/\"//g; s/added/A/g; s/modified/M/g; s/removed/D/g; s/renamed/R/g; s/copied/C/g; s/changed/T/g; s/unchanged/U/g' \
             > "HEAD.diff"
           cat "HEAD.diff"
@@ -221,7 +221,7 @@ jobs:
           # git --no-pager diff --name-status origin/"${BASE}" HEAD > "HEAD.diff"
           gh api \
             -H "Accept: application/vnd.github+json" \
-            /repos/cardano-foundation/cardano-token-registry/pulls/${PR}/files \
+            /repos/Kartiiyer12/cardano-token-registry/pulls/${PR}/files \
             | jq --raw-output -c '.[] | [.status, .filename] | @csv' | sed $'s/,/\t/g; s/\"//g; s/added/A/g; s/modified/M/g; s/removed/D/g; s/renamed/R/g; s/copied/C/g; s/changed/T/g; s/unchanged/U/g' \
             > "HEAD.diff"
           cat "HEAD.diff"
