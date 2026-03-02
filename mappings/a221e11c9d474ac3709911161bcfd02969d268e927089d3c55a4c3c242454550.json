@@ -1,11 +1,11 @@
 {
     "subject": "a221e11c9d474ac3709911161bcfd02969d268e927089d3c55a4c3c242454550",
     "url": {
-        "sequenceNumber": 0,
-        "value": "https://sportsbeep.com",
+        "sequenceNumber": 1,
+        "value": "https://sportsbeep.com/",
         "signatures": [
             {
-                "signature": "611aa4147627cc871defef56d11d70a00c29fc0b247a5a6400cecabe51add105ce8d6b9b71ab3b5a17dc6cf43774e8a63d4641d991e59c7acdd5f2330e684200",
+                "signature": "0174c52c3d41f2c8877f2457d6a8120d4937402a33c80b75b03472e41a50ef24c8459a58477e429e30df0d670a0159dfb763836a6ec3d59a8d44485cce309406",
                 "publicKey": "dab167dd0707a596ee62075c151d1cf9d36de1324e181d3c02e9774d104fa6bb"
             }
         ]
@@ -21,21 +21,21 @@
         ]
     },
     "ticker": {
-        "sequenceNumber": 0,
-        "value": "$BEEP",
+        "sequenceNumber": 1,
+        "value": "BEEP",
         "signatures": [
             {
-                "signature": "046d763efb7f825b594e71564b3ecf53410a438955dc9b8914cb446e875a75387a6f3360f63e070ecdb48e7acf87c06933739f6ffeb79d2eacd0b17764e32007",
+                "signature": "c6bef26077a1a3ac06dbb8b31c82715db47322a85a6395d7e59d29e5d131f8574a58bd4cd3cca0856c3e5cbd7631577b4b2b1fc8a4731b79ef0ed0506cc0cc01",
                 "publicKey": "dab167dd0707a596ee62075c151d1cf9d36de1324e181d3c02e9774d104fa6bb"
             }
         ]
     },
     "decimals": {
-        "sequenceNumber": 0,
-        "value": 0,
+        "sequenceNumber": 1,
+        "value": 6,
         "signatures": [
             {
-                "signature": "4a0991a5f4bbc683d22325966a8f2a4787d7cd7fdbdedde5bbbcbf6c207af87f36f69860d3b7d8329f299814aeb158757368df947c6d53720c704fa276c91004",
+                "signature": "def42662bd02381286fb1dbcfda30ec1abbde38134a36b93a0bb86985cfbce8106758a392ea997916894356b777da89f0ebb09bf2285145f6348c2faba430d0f",
                 "publicKey": "dab167dd0707a596ee62075c151d1cf9d36de1324e181d3c02e9774d104fa6bb"
             }
         ]
@@ -52,11 +52,11 @@
         ]
     },
     "description": {
-        "sequenceNumber": 0,
-        "value": "$BEEP benefits from Cardano’s secure, energy‑efficient infrastructure and staking‑based reward model, which prioritizes long‑term participation over speculative swapping. Serving as the platform’s currency, $BEEP enables seamless transactions, incentivizes engagement, and reflects SPORTSBEEP’s commitment to sustainability, transparency, and community trust.",
+        "sequenceNumber": 1,
+        "value": "BEEP benefits from Cardano’s secure, energy‑efficient infrastructure and staking‑based reward model, which prioritizes long‑term participation over speculative swapping. Serving as the platform’s currency, $BEEP enables seamless transactions, incentivizes engagement, and reflects SPORTSBEEP’s commitment to sustainability, transparency, and community trust.",
         "signatures": [
             {
-                "signature": "07181a015e9af5ed2b062c5ce7550be8b9ce89a3b3c2ee9dc3e3c27df0f6d223dff016cbe40246e8a4af74ad340f5d4dfa5ab5602499986a2c326ec5bcf1730d",
+                "signature": "436352e9bc8c21a867bfd18d878a8bce9da142a75d43ef38f7d8e7be396d796417b08c44fb8f0ec68acfb79889b3a1aec8976059edab70293e9ebf8cb5c9e205",
                 "publicKey": "dab167dd0707a596ee62075c151d1cf9d36de1324e181d3c02e9774d104fa6bb"
             }
         ]
