@@ -1,0 +1,43 @@
+{
+    "subject": "7ba94a60896901ba28e95e33d4860db8eec0f84cf7d020da96f70c20",
+    "name": {
+        "sequenceNumber": 0,
+        "value": "Liqwid USDCx CollateralParams",
+        "signatures": [
+            {
+                "signature": "1cc94bea003d8e4cb19737d89bc6f6f92ea8bafd5befc5f5a02b8706fc23c6f913bce09e3a6cd6094fa13fbe031245ff42949bccd7f3274d61aaa7ead77d7006",
+                "publicKey": "b57ab6cd98b5141f20fd204905c162a5b3ff9f9e418fe0aade2390f4ab5a1cc5"
+            }
+        ]
+    },
+    "ticker": {
+        "sequenceNumber": 0,
+        "value": "USDCxCOL",
+        "signatures": [
+            {
+                "signature": "c9995bf53ec7656354776caabc2fb17bf8d49cd68e6878296b111366fbcf23a759ef9ca90950975667a34f1774400f8aca2ed19449ea94dc7088783cf6f80d0e",
+                "publicKey": "b57ab6cd98b5141f20fd204905c162a5b3ff9f9e418fe0aade2390f4ab5a1cc5"
+            }
+        ]
+    },
+    "decimals": {
+        "sequenceNumber": 0,
+        "value": 0,
+        "signatures": [
+            {
+                "signature": "f3d9301cb82e879d872f7d43916655a8883354190d9556ddd010d22a563c654d88b338eae128aa5fac8d967c191d915101d275f2b838d0e6d13fbd3472346102",
+                "publicKey": "b57ab6cd98b5141f20fd204905c162a5b3ff9f9e418fe0aade2390f4ab5a1cc5"
+            }
+        ]
+    },
+    "description": {
+        "sequenceNumber": 0,
+        "value": "Utility token for Liqwid USDCx market",
+        "signatures": [
+            {
+                "signature": "85b6bdc2168f1a322e1bdf8832be8bd2569683078b049eba685bf9db093f73fe4a5172e6b264029faec2e91adfe8b54e05850ed5d375d0118207564f75013408",
+                "publicKey": "b57ab6cd98b5141f20fd204905c162a5b3ff9f9e418fe0aade2390f4ab5a1cc5"
+            }
+        ]
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "subject": "d959ec7ee9b45b293ec2494304a5a5603bd9a7d46794d736f79813ce",
+    "name": {
+        "sequenceNumber": 0,
+        "value": "Liqwid USDCx MarketState",
+        "signatures": [
+            {
+                "signature": "f18d4dbaa1bd523097cbafd30f8af554204b2198c9cedc4b702acd4558ef6078d35eadc086721cf91f18e2db8597e188b6b164e44fcfc954d442692a7515ef06",
+                "publicKey": "b57ab6cd98b5141f20fd204905c162a5b3ff9f9e418fe0aade2390f4ab5a1cc5"
+            }
+        ]
+    },
+    "ticker": {
+        "sequenceNumber": 0,
+        "value": "USDCxST",
+        "signatures": [
+            {
+                "signature": "992d19991b6d7567180fd8277a2b5712a86d51e68728729f858ebce3fc88ec3d93e1680f4e71f005e460c666412ef747571c1ebef3b82c90b1b9ab8e74f97b02",
+                "publicKey": "b57ab6cd98b5141f20fd204905c162a5b3ff9f9e418fe0aade2390f4ab5a1cc5"
+            }
+        ]
+    },
+    "decimals": {
+        "sequenceNumber": 0,
+        "value": 0,
+        "signatures": [
+            {
+                "signature": "31288db70b98f6f428793a6cbe92aa9da38b9139085854bbc5e3c3559e9c68255f14df40c22e45733d875bf69e1178264604521c4768703f43b102991b9f0f08",
+                "publicKey": "b57ab6cd98b5141f20fd204905c162a5b3ff9f9e418fe0aade2390f4ab5a1cc5"
+            }
+        ]
+    },
+    "description": {
+        "sequenceNumber": 0,
+        "value": "Utility token for Liqwid USDCx market",
+        "signatures": [
+            {
+                "signature": "dbb550c0db424b8104e963514826497f3b0488f48940214010e61013164231fbbb8ad38fce29fc907731653abe73334cbb04191a2e0325a93190e3bf74b8da07",
+                "publicKey": "b57ab6cd98b5141f20fd204905c162a5b3ff9f9e418fe0aade2390f4ab5a1cc5"
+            }
+        ]
+    }
+}
