@@ -1,0 +1,43 @@
+{
+    "subject": "b3ca739215f1116d07b9b0a001a59e72328343151ebac7d2bfea9ff800",
+    "name": {
+        "sequenceNumber": 0,
+        "value": "Liqwid USDCx Borrow",
+        "signatures": [
+            {
+                "signature": "3b6472e182bf992f9384e79c456ad964b7426c3efd30b832018ffe3a11f0a62c46b71e156af5f86a6b07d48be2c7a695b2297c8e09d93204a4464b64ac3b040b",
+                "publicKey": "b57ab6cd98b5141f20fd204905c162a5b3ff9f9e418fe0aade2390f4ab5a1cc5"
+            }
+        ]
+    },
+    "ticker": {
+        "sequenceNumber": 0,
+        "value": "USDCxBOR",
+        "signatures": [
+            {
+                "signature": "7839c11d990b0578a88bb60b6fcba786015ec6961a858a131bc7ecf666cf0d431911c7539fb260ee5e9738bf24dcc856752f296f190f717b9124db3b9040bd01",
+                "publicKey": "b57ab6cd98b5141f20fd204905c162a5b3ff9f9e418fe0aade2390f4ab5a1cc5"
+            }
+        ]
+    },
+    "decimals": {
+        "sequenceNumber": 0,
+        "value": 0,
+        "signatures": [
+            {
+                "signature": "31556b87d72dc35c408378263baef19f741e42eb0b7e177568d9fc72ba8d35e7e005840133c78e84d5a197d5b2d5857199665b7bc0a69f3169cd9c472a6b3900",
+                "publicKey": "b57ab6cd98b5141f20fd204905c162a5b3ff9f9e418fe0aade2390f4ab5a1cc5"
+            }
+        ]
+    },
+    "description": {
+        "sequenceNumber": 0,
+        "value": "Utility token for Liqwid USDCx market",
+        "signatures": [
+            {
+                "signature": "9aff5ba9a7f1070d793f7c749ac8dab37b4e5477708fde5953e767cc50a08301c903a2fe9849e33d94f8ae2592ffb154c5af2d91a469f9a594b0d2237590d106",
+                "publicKey": "b57ab6cd98b5141f20fd204905c162a5b3ff9f9e418fe0aade2390f4ab5a1cc5"
+            }
+        ]
+    }
+}

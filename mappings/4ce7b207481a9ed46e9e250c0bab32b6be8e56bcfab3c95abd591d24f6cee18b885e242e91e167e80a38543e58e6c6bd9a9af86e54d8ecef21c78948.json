@@ -1,0 +1,63 @@
+{
+  "subject": "4ce7b207481a9ed46e9e250c0bab32b6be8e56bcfab3c95abd591d24f6cee18b885e242e91e167e80a38543e58e6c6bd9a9af86e54d8ecef21c78948",
+  "name": {
+    "sequenceNumber": 0,
+    "value": "Berry Vault",
+    "signatures": [
+      {
+        "signature": "527b0a1aff324a5f029ad7ffa3cd09160fa6ab31898ddeb05289cdbdf6e219ecfbbf8b222d1889f349c4ad95e3470630d411c40d91d581fbb9fd02d757ffe708",
+        "publicKey": "cf33dcec880bcdce343a343e86a2ab6eaefd3fe689a8e3f8885f63e3439ad56b"
+      }
+    ]
+  },
+  "description": {
+    "sequenceNumber": 0,
+    "value": "The Berry asset fractionalization vault holds Berry NFTs, the first major NFT collection on Cardano. $BERRY vault token holders participate in decentralized governance over vault actions, including potential asset management, market actions, expansions, and distributions. ",
+    "signatures": [
+      {
+        "signature": "77db6061590342419f8bdbfe39bee024e7ca9160939f63f5f8176d14d755b10115f6b290d741b58126468c1ce23c95699d60a50eda736adf12f91906ec535d09",
+        "publicKey": "cf33dcec880bcdce343a343e86a2ab6eaefd3fe689a8e3f8885f63e3439ad56b"
+      }
+    ]
+  },
+  "ticker": {
+    "sequenceNumber": 0,
+    "value": "BERRY",
+    "signatures": [
+      {
+        "signature": "3db61e507a4e53cae7bc11228997e30fb04177343b9d0893119a23950d4a17115507167e9d80abe34ab3efa40b1b1667ae5f5dd2e0f07383ca5b3f5f24861900",
+        "publicKey": "cf33dcec880bcdce343a343e86a2ab6eaefd3fe689a8e3f8885f63e3439ad56b"
+      }
+    ]
+  },
+  "url": {
+    "sequenceNumber": 0,
+    "value": "https://app.l4va.org/vaults/320fd519-af33-4b42-8886-c70d49d0b15f",
+    "signatures": [
+      {
+        "signature": "7f07a933ddd75c509ae1c38b273aa6aab3b2e09760934e7d5402a0111bd1005489506c32a766c078a47c0033f3895ee2bf8b3a7f1741baff0cc4268ca2a7730d",
+        "publicKey": "cf33dcec880bcdce343a343e86a2ab6eaefd3fe689a8e3f8885f63e3439ad56b"
+      }
+    ]
+  },
+  "logo": {
+    "sequenceNumber": 0,
+    "value": "iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAclBMVEVMaXHnlK/qmLLtl7bqmr/wmrnqkrLwmrjxmbrym7rql7Tul7jtmbbqlLX1lsPsmLb////vmbjsmLT+//7wlrXpm7f//P/sl7rvmLrinbb3///ol7L3lLXznrz65O398Pf21OH2v9Psm6nnu8vnp771rMa6FPPFAAAAD3RSTlMARQ+M/qMG1+e/IVUubP7KbwYMAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAJJElEQVR42t2ba5uqOAyAUUDAG7S0lVLu6v//i5uCOjqjJKDuPs/2fJg9c2bNO2mSpknqODPWar3YuX4UhGF24DwMg8h3d4v1yvk31nrjRmFWlrHhPIbFef/1wEsWRu5m/VXhq4UbiL3IDocss4IPsH6+sliIsgzcxepb0v2wYJxl8eEFADtwL84OZeh/gWHthoPQ7LIYLPv1HiDLeiCTZaH72b1Y+OYq7ArAXwPAz4CFRIvPiY+KQTCugevPgFWafbBZfUb8iZtCTAXY687bB+9rYetfBMTzVrR9z/Ldgr8HEHvu8g3tB93bAN38fVi5Rgj9LkDh6cyfpYR1ACH20C8JK35jsWCGJWxCfgM4yMN7ACzbTVb/VfUf0QAsd1JMWPrdPcD7GmDMRBMMYRkxZv+3+KMrWNPNj30DIA6JBOtwEE4DMCUZgNN0sA69KQClIcvnHUUHy8C6Hw1AxMdateajdrCM+BSAJs9rLaYQIL6w8gexZA0o1UrrZWSDjcbjgdtNAYgLdjoZIScA8MIdjb/T/EpqwXVRDCr4tV4Hpd24A05a+ljV7VP5IwDZy5NpFUyUz08qz9UxG4ItFYC9NER3cow/K1iNmQjA/Bf5T0FIL3Spxe1gYieVpKq9iZexiQshxJgBM8a5WLyIQLjblY2qzze/ZxoCUSOLKwCYRHWWgmMA3dNNcDs0oAjRqDStT5zf3EDHUuorAJgE/KuIxwEgURVPfHGtPY0DVHmeJuUVQMYCNP6z722Sq7zFAToj/nqCT/G6uE2TpGYi1n2yWsimrpuTsECw9eKscoiMQuOByUR/LJCW4mZNXR0N/I7SAsgqVSoftsSmbbJJk0YzCgDb/AKISJEPzBCUDuK4sABHUDlEguZSqmBal6WWMSk0B49nwoJ0omktBfwBvVdHC1AlKkkgEliAY1M155hJBpgUgPJRBZGmBp/CWE9I07YAkl68qrmQrf1efhIFFoiuK3tQwcLryNGvVD1AXTAJRpeA5zVCnPrvqSomA+zZfTTyO/LVy4BUKywpYa8blai0goykHQBUJq5hGd/OO0dYS0nOq/Q5zwd1y1izc9O0uoDEpP+eyiUVQGpjfmKBKyUhDPeOJgtd57D1CfzexaVEF2txrq0x5NUAQLtJMffnGCYAgP8VPYA51tYETncAUoBl2nUy8QSAcHnzwQNFA7Ex8MGCy1Pbtlr2oeh2KthzqLHpmQ3N1Avb1RN9CkAhj1ULBAI0UXJRgr/LOwABMULGRaGvZwMF4GKGq5DjW6D1EQy+MQUHCHuk2jur6M/++0g5CIfvUraAFcMeLPYEgOIIqUeeVidjuHgFAEFguAkb2hbEm4sPCBSAl3Wa9wGgsQhA8BegNGAejXUHe0KSNDDkZoGHAehC1jb97H29rloQxf4CmLKtQHpinVRVJQGg68PxWvfFx5cRw1q+GOI/fHYyQDTtuQRNXxak2ue2qftgdP25+syNdZvRwg23sWgjD2MAliA+q+QeIIUzKAFVXFdd93FI3QMAAQpwMNYI3KzDNCArddNAv9JLOO7X8C/w9QEATiZttTOqgd4IooIhGojb/BEA/jbE/n5dtuWXBsBkWgzgoAMbBYYC82sAnlX9h/4o4NlK76Rf/isX4JXjpat46ayzcQC4bJwf1D8GkN/ZiU1aRgNiH7O2zqK8NZ6eu6CQFRkgfQSojJDjAJCY7TIM4KQIAOkzAHUqNALgOi7DKgptQlrPENsC2wLf8bEgzOtk7oIcEQHgkRMhALADyXyCE+IFLHCwO3F2zOfLT48YQOiEiA2wJqEY4XOAvEW8IMYB7PVnLkCSVwYBiB0seWJVOhsAIgFHtoB9FSBXdfk2gFQz1d+HBoXmhg56hfk2QMjH0+j/O4BxAqyw+EYghDwGy45DJ/pPAXjg+FhBoX4HoMarZS4CYKp3ACrkpDG+s8PiQJvPNkIooEm0RrAYB+DymLwB0GIAG2eNaUDWiVJzt6BEAMotpOUIALfl0JkAlUAAMrigRyOXEpsRSXstmbkH7fill8vAXs04AnCavQXJabRWxPfG7y+n3XhSaqq5AJXmo6UKWdoO2jrzxgHEcSZA2ppxAF5uhwLFeFGJsVqlano+CDVkw0dtwAv7erGLAMQM2hTTAXoFIAD+pUiFldVMPX0ToFJkOAYwFKmWIQag2xkGoFqNAlxKpb7neQekTa+mhWC4mDZMYADRrVvgYZNSuk6SCWdCatt3tpo4DnAt1a5CUMH4BVEea/hUugek6igFVrK9FavBDxCAQugjFArpCkhaKKZjvaOfFvI6K9CWDW8VPSRDQ/s68Pry8wy/69lEncRbLI2iAqhGawxAPPQuF3jb1nBNdoUGzgAMwOs209p2hdFEZ8wbpk2BAejHzuWmowwicQKBShrGL2tsEHK/m9y65VwTdgEqtHZEAQX41bqF3NRQese6QeqlsP+C4xrgf5rXTkQAKCTYwShBWkH8kziA+TvPtN0Tm5fN66MZuomcMgS777onUyQ7XlDkS1ap17//8NtjAPzgPx1iIXXQhYGizasckBlBAZDh00miBaWDzjWXLwjSmknaHLK3eTHIRGk49sHlSZ6sVMXuHz3EpFPo9yYQAZ7ZAciXRIDXM4XbjAYAA3zVM/1bDeIA5cis+Y4GYO2g/iW/lMP4Dg4wOmTt7qkjGMx26pK+mwkt1Zo8gyL88ZHOiApg7cD2D23zDnqE5MlrbMB6GRgagI0H11ZdVUpBnbNfk8aqKUMoYInQK4b0szra/Y8/Nly9xu6KD00nWDb9vg67iVFN7MMtbbSaDgCzAnQAHm6pw+WMcyrA/U+OA7Bwwnj9NwCC9ZQHBmS/pq4sWk574vFpAH/qs69dxibNjCMBfOojF3syBZ8DmPfWaelnwhNvC4fpL3/ua69NKIt35WsRbuY/Nlu68LDxHfEw8OW/8djNWkLE3zK+D7y73ASZFPTh9Z/rPDyVCz/y5nK1CWBUbioAF12w+9Tj29UmYr9H+DGAMtp89O3v1g2nAIT+1vn0AjUID6be9q8BbFLueXvP3yydr6wlPL7OeHZ4BZDBm/Twa9Kve7HzA5hufihC9o+CyjIL/N32X3mCv9wudv3r/8tlv3//v9jO+s3/Ae/gRUi75saOAAAAAElFTkSuQmCC",
+    "signatures": [
+      {
+        "signature": "5fa6c87b4431b7e0a2202761474a907f56d23339a4318c7daef2afdc24c470fd5147a50d6222e16b7ca084f22c1e5d73a8b0a9546c46b30adf934a1e9e48fb0a",
+        "publicKey": "cf33dcec880bcdce343a343e86a2ab6eaefd3fe689a8e3f8885f63e3439ad56b"
+      }
+    ]
+  },
+  "decimals": {
+    "sequenceNumber": 0,
+    "value": 8,
+    "signatures": [
+      {
+        "signature": "bcff231ca6165ea6f80df455ee4ffa9965c462e25f08d52c6127cfc6931f851c970198ac274cacaed1b2cc8b12d3f31f5d9d5b1e6aec9aa55b03077b6270050a",
+        "publicKey": "cf33dcec880bcdce343a343e86a2ab6eaefd3fe689a8e3f8885f63e3439ad56b"
+      }
+    ]
+  }
+}
