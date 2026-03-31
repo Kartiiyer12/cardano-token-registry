@@ -1,0 +1,53 @@
+{
+    "subject": "25c5de5f5b286073c593edfd77b48abc7a48e5a4f3d4cd9d428ff935524c555344",
+    "url": {
+        "sequenceNumber": 0,
+        "value": "https://www.wanscan.org/tokens",
+        "signatures": [
+            {
+                "signature": "f1dd3b4a7ab640f2f3f4a88019f6a28095209f6f5ab3b45238368f54cbfa52414b4d5e1dd4cccadf709ca15ce6bd35bebb18f8c5e9a85db311cd6cc09950fd0d",
+                "publicKey": "6f6a0e6cbebaa0e616c26c30c23bbfd82826a02ee12323ef598cd3fab20f18e2"
+            }
+        ]
+    },
+    "name": {
+        "sequenceNumber": 0,
+        "value": "RLUSD",
+        "signatures": [
+            {
+                "signature": "b4df4be5a278f4690e86ce42e944394ceb24a2a52de8b96406ab0b441f0979edcb5b319740e40ee05eaea78522f50acb119b07aa86edb116f26756e21c59dd07",
+                "publicKey": "6f6a0e6cbebaa0e616c26c30c23bbfd82826a02ee12323ef598cd3fab20f18e2"
+            }
+        ]
+    },
+    "decimals": {
+        "sequenceNumber": 0,
+        "value": 8,
+        "signatures": [
+            {
+                "signature": "26b7ceaf254b1589a1b2ee7b110bd9ea53a40535658666f1c914c47da3f537fbd6671d71ca5fa9fb27db68a423a014c870fb3d66626454ebf4b37d86b8b04905",
+                "publicKey": "6f6a0e6cbebaa0e616c26c30c23bbfd82826a02ee12323ef598cd3fab20f18e2"
+            }
+        ]
+    },
+    "logo": {
+        "sequenceNumber": 0,
+        "value": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAADqklEQVR4XuWbMWgUQRSG1wQLQUknNhb2FoJa2Vgq2FjExkqQxLuLBL3AFSIoguRAsNGApLCIFmqhFhY2AcFCA4KCCkJQEYkRonhHcpig95y3c6d3783ezuzc7O45P3wEsjNv583tvHkzOxsEaWgMNgdFmBLMBwVYFH9rAiDUWtfmw7JYZzAFm4ILMCScqArqCkdNQRvV0Cbazq1GYTiQv3JT4US/QNtT4b1yI/xlCjCjaKxb8J7hU5GlijDJGpY+k7RZ7iWDWkPRmKxopBc0S3BE0YB8gG1zJxGBS/CQ3TRvYBv7PlvIaY3fLM/0LUDK6Y3fYBCwny7Fo0SNDhpWw2EQxnwcYUxIojxHe1OMZ4csx31BMCY42WJcUSYJRvGgCGvMgGuE49OPAX43gendMsCW07IMq6fPGnVTrQzS26ESwMYv6jbXp++8riEaaTOv5JYCdbO3lmuyDrOjS0+lvao7BfDxG3UxXpX7Clu6oI9KZZDtnZijrukLO4/a00aZJRahzAq6xPDRp9p1XmFTnzLxPsz4XO7kcCw74PA1hU19mt0ZYgaPv3UHXFfYNKFrGMgNTF7IJZYdcPCqwqYJJbjY2QH92L015v0KdUtfW89we4bUOzuAXjTmwBWAuy/ktDb3HGDnOV6GsucydUtfVrlAG+sOEI148JI27Z+aIq0dnZXlWN1W/aeLtFa89lUVtpLQch738vnFOMQ8/HODNk2tV58hshN2VGjp3rq1wG1YMIUdgK+i6IXeCGe+1mnTeuv2gsIOMk5LRmvijqK+HfOY/uL7OHqhJ8dmadP0tPsSsSU68tFrWqpbtQbAIZzzbTK/KND3QP2iMhrL6ev4TWlneEI6R7WyCrANIzwOmYhh00dq5gHQ4JE1VWMd0nC6G/aPGEbO0mb3TzNP+P2cw/4Rg/cd8D8OgVSD4NEb0g4GwaUf9GoWQTDBNIhL0SRKMg2urrufBlNJhHB9wOwgBkPKTSLkfSpsuRjCBkVJZzH07AOtFa/9VYWtJFivBjvYOw1wTyyH3yzJx317hZeh5Gk5PHAbIiNlbs+Qrg0R/7bE0Oe/8n5T1PttcZTfL0aCTIZBvl6Nobx+OdoWreAaw6Hg9vU4yvsDEqicHZF5+yXNIzIo7w9Jobw+JteW1wclQ/l+VBaVZTywxXjcRymDLNGayGwvsXz+YKJTeZ4dEkd7U3n90VSnMkibFWimt67k9YeTnfL201kmBx9P45m+8Nd2Gd1dKsefz/8BVrZ7wl05T0oAAAAASUVORK5CYII=",
+        "signatures": [
+            {
+                "signature": "a0127d3003dc4a03622b2016215c088ebb599b4bd6d6a3153bae99af757df1436983b08c5171d196561b0bad7b2f9837c002fe4dedc5ba4b7235e29001848c0d",
+                "publicKey": "6f6a0e6cbebaa0e616c26c30c23bbfd82826a02ee12323ef598cd3fab20f18e2"
+            }
+        ]
+    },
+    "description": {
+        "sequenceNumber": 0,
+        "value": "The Mapping token of RLUSD on wanchain.",
+        "signatures": [
+            {
+                "signature": "5ada9bd4fd7f6390d721b99b25c86c2bf2c9ce3df293acf760d19ce664d3431b54cfeaa8a7d8abe707aa0cbf87babe3c8fea4d1cf3a0c9f3006477aa24201707",
+                "publicKey": "6f6a0e6cbebaa0e616c26c30c23bbfd82826a02ee12323ef598cd3fab20f18e2"
+            }
+        ]
+    }
+}
