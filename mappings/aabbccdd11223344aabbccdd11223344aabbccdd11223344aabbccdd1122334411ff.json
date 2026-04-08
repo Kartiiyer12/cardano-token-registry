@@ -1,0 +1,13 @@
+{
+    "subject": "aabbccdd11223344aabbccdd11223344aabbccdd11223344aabbccdd1122334411ff",
+    "name": {
+        "signatures": [],
+        "sequenceNumber": 0,
+        "value": "Test4-AllValid"
+    },
+    "description": {
+        "signatures": [],
+        "sequenceNumber": 0,
+        "value": "TEST CASE 4: Both filename and subject are lowercase and match. Should PASS all checks"
+    }
+}
