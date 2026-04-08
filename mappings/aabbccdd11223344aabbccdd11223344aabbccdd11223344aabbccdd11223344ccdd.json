@@ -1,0 +1,13 @@
+{
+    "subject": "aabbccdd11223344aabbccdd11223344aabbccdd11223344aabbccdd11223344CCDD",
+    "name": {
+        "signatures": [],
+        "sequenceNumber": 0,
+        "value": "Test2-LowercaseFileUppercaseSubject"
+    },
+    "description": {
+        "signatures": [],
+        "sequenceNumber": 0,
+        "value": "TEST CASE 2: Filename is lowercase but subject has uppercase hex. Should FAIL: subject-lowercase, subject-mismatch"
+    }
+}
