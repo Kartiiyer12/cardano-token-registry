@@ -1,0 +1,13 @@
+{
+    "subject": "aabbccdd11223344aabbccdd11223344aabbccdd11223344aabbccdd1122334455AA",
+    "name": {
+        "signatures": [],
+        "sequenceNumber": 0,
+        "value": "TestUppercaseSubject"
+    },
+    "description": {
+        "signatures": [],
+        "sequenceNumber": 0,
+        "value": "Test file to verify CI catches uppercase hex in subject field"
+    }
+}
