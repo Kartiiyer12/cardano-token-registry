@@ -61,7 +61,7 @@ jobs:
           # git --no-pager diff --name-status origin/"${BASE}" HEAD > "HEAD.diff"
           gh api \
             -H "Accept: application/vnd.github+json" \
-            /repos/cardano-foundation/cardano-token-registry/pulls/${PR}/files \
+            /repos/${GITHUB_REPOSITORY}/pulls/${PR}/files \
             | jq --raw-output -c '.[] | [.status, .filename] | @csv' | sed $'s/,/\t/g; s/\"//g; s/added/A/g; s/modified/M/g; s/removed/D/g; s/renamed/R/g; s/copied/C/g; s/changed/T/g; s/unchanged/U/g' \
             > "HEAD.diff"
           cat "HEAD.diff"
@@ -194,7 +194,7 @@ jobs:
           # git --no-pager diff --name-status origin/"${BASE}" HEAD > "HEAD.diff"
           gh api \
             -H "Accept: application/vnd.github+json" \
-            /repos/cardano-foundation/cardano-token-registry/pulls/${PR}/files \
+            /repos/${GITHUB_REPOSITORY}/pulls/${PR}/files \
             | jq --raw-output -c '.[] | [.status, .filename] | @csv' | sed $'s/,/\t/g; s/\"//g; s/added/A/g; s/modified/M/g; s/removed/D/g; s/renamed/R/g; s/copied/C/g; s/changed/T/g; s/unchanged/U/g' \
             > "HEAD.diff"
           cat "HEAD.diff"
@@ -242,7 +242,7 @@ jobs:
           # git --no-pager diff --name-status origin/"${BASE}" HEAD > "HEAD.diff"
           gh api \
             -H "Accept: application/vnd.github+json" \
-            /repos/cardano-foundation/cardano-token-registry/pulls/${PR}/files \
+            /repos/${GITHUB_REPOSITORY}/pulls/${PR}/files \
             | jq --raw-output -c '.[] | [.status, .filename] | @csv' | sed $'s/,/\t/g; s/\"//g; s/added/A/g; s/modified/M/g; s/removed/D/g; s/renamed/R/g; s/copied/C/g; s/changed/T/g; s/unchanged/U/g' \
             > "HEAD.diff"
           cat "HEAD.diff"
