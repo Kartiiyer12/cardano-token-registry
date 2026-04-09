@@ -67,7 +67,7 @@ jobs:
           cat "HEAD.diff"
           echo
 
-          rm -f fail-location fail-filename fail-subject-is-hex fail-subject-length || :
+          rm -f fail-location fail-filename fail-subject-is-hex fail-subject-length fail-subject-lowercase fail-subject-mismatch || :
           echo "Validating all changed PR files are in the ${LOCATION} directory and are hex and are valid length filenames:"
           echo
           awk '{print $2}' "HEAD.diff" | sort | while read -r fname; do
