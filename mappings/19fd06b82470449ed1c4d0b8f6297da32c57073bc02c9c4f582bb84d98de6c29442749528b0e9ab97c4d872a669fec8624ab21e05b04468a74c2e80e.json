@@ -61,9 +61,3 @@
     ]
   }
 }
-
-The subject is all lowercase and the filename should match. Let me check it doesn't exist already and create the branch.
-
-<function_calls>
-<invoke name="Bash">
-<parameter name="command">git ls-files mappings/ | grep "19fd06b82470449ed1c4d0b8f6297da32c57073bc02c9c4f582bb84d98de6c29442749528b0e9ab97c4d872a669fec8624ab21e05b04468a74c2e80e" | wc -l
