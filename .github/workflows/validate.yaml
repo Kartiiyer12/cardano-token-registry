@@ -1,7 +1,8 @@
 name: CI
 on:
-  # Trigger on open, synchronize or reopen PR activity against the default base branch
-  pull_request_target:
+  # Trigger on open, synchronize or reopen PR activity against the default base branch.
+  # Runs in the UNTRUSTED context: no secrets, read-only token, fork code is safe to check out.
+  pull_request:
     branches: [ "master" ]
 
 permissions:
@@ -9,30 +10,24 @@ permissions:
   pull-requests: read
 
 jobs:
-  approve: # Pre-approval step
-    runs-on: ubuntu-latest
-    steps:
-    - name: Approve
-      run: echo For security reasons, all pull requests need to be approved first before running any automated CI.
-
   Validate-Metadata:
     runs-on: ubuntu-latest
     steps:
       # Checkout both this pull request and the master branch
       - name: Checkout pull request
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           path: pull-request
 
       - name: Checkout base branch
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
         with:
           ref: master
           path: master
 
       - name: Checkout ledger na list
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
         with:
           repository: 'LedgerHQ/app-cardano'
           ref: develop
@@ -61,7 +56,7 @@ jobs:
           # git --no-pager diff --name-status origin/"${BASE}" HEAD > "HEAD.diff"
           gh api \
             -H "Accept: application/vnd.github+json" \
-            /repos/cardano-foundation/cardano-token-registry/pulls/${PR}/files \
+            /repos/${GITHUB_REPOSITORY}/pulls/${PR}/files \
             | jq --raw-output -c '.[] | [.status, .filename] | @csv' | sed $'s/,/\t/g; s/\"//g; s/added/A/g; s/modified/M/g; s/removed/D/g; s/renamed/R/g; s/copied/C/g; s/changed/T/g; s/unchanged/U/g' \
             > "HEAD.diff"
           cat "HEAD.diff"
@@ -171,7 +166,6 @@ jobs:
             $VALIDATOR pull-request/"${file}"
           done < <(awk '/^A/ && $2 ~ /^mappings\// {print $2}' pull-request/HEAD.diff)
           echo
-
       - name: Optional Check - LedgerX Top100
         id: ledgerxcheck
         env:
@@ -196,7 +190,7 @@ jobs:
           # git --no-pager diff --name-status origin/"${BASE}" HEAD > "HEAD.diff"
           gh api \
             -H "Accept: application/vnd.github+json" \
-            /repos/cardano-foundation/cardano-token-registry/pulls/${PR}/files \
+            /repos/${GITHUB_REPOSITORY}/pulls/${PR}/files \
             | jq --raw-output -c '.[] | [.status, .filename] | @csv' | sed $'s/,/\t/g; s/\"//g; s/added/A/g; s/modified/M/g; s/removed/D/g; s/renamed/R/g; s/copied/C/g; s/changed/T/g; s/unchanged/U/g' \
             > "HEAD.diff"
           cat "HEAD.diff"
@@ -218,49 +212,8 @@ jobs:
             done
           echo
 
-      - name: Optional Check - Has been minted on mainnet
-        id: ismainnetassetcheck
-        continue-on-error: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PR: ${{ github.event.pull_request.number }}
-          BLOCKFROST_PROJECT_ID: ${{ secrets.BLOCKFROST_PROJECT_ID }}
-        run: |
-          # Get the policyid from the file (or determine the asset id)
-          # if it is smart contract based and policyid is not avail...ignore it
-          # call blockfrost to check if that asset already exists
-          # output a warning on this step if it does not exist
-          export BASE="master"
-          export LOCATION="mappings"
-
-          pushd pull-request
-          echo "Fetching base branch '${BASE}':"
-          git fetch origin ${BASE} --depth=1
-          echo
-
-          echo "Obtaining PR file change diff:"
-          echo "BASE: ${BASE}"
-          echo
-          # git --no-pager diff --name-status origin/"${BASE}" HEAD > "HEAD.diff"
-          gh api \
-            -H "Accept: application/vnd.github+json" \
-            /repos/cardano-foundation/cardano-token-registry/pulls/${PR}/files \
-            | jq --raw-output -c '.[] | [.status, .filename] | @csv' | sed $'s/,/\t/g; s/\"//g; s/added/A/g; s/modified/M/g; s/removed/D/g; s/renamed/R/g; s/copied/C/g; s/changed/T/g; s/unchanged/U/g' \
-            > "HEAD.diff"
-          cat "HEAD.diff"
-          echo
-
-          rm -f fail-location fail-filename || :
-          echo "Validating if asset has been minted on mainnet already:"
-          echo "status=success" >> $GITHUB_OUTPUT
-          echo
-          awk '{print $2}' "HEAD.diff" | sort | awk 'match($0, /mappings\/[0-9a-f]+\.json/) { print substr( $0, RSTART+9, RLENGTH-14 )}' \
-            | while read policy; do echo "Checking subject ${policy} with policy id ${policy:0:56}"; if [ $(curl -w '%{http_code}' -s -H "project_id: ${BLOCKFROST_PROJECT_ID}" -q -o /dev/null https://cardano-mainnet.blockfrost.io/api/v0/assets/policy/${policy:0:56}) = "200" ]; \
-            then echo "Assets with policy id ${policy:0:56} have been minted on mainnet."; else echo "::warning file=mappings/${policy}.json::No assets with policy id ${policy:0:56} have ever been minted on mainnet."; echo "status=failure" >> $GITHUB_OUTPUT; fi; curl -w '%{http_code}' -s -H "project_id: ${BLOCKFROST_PROJECT_ID}" -q -o /dev/null https://cardano-mainnet.blockfrost.io/api/v0/assets/policy/${policy:0:56}; done
-          echo
-            
       - name: Check optional validation outcome
-        if: steps.ledgerxcheck.outputs.status == 'failure' || steps.ismainnetassetcheck.outputs.status == 'failure'
+        if: steps.ledgerxcheck.outputs.status == 'failure'
         run: |
           echo "There were errors during the optional validation steps. Please check the according logs."
           exit 1
