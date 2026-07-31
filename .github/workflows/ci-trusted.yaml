@@ -20,14 +20,19 @@ jobs:
 
   guard-ci-integrity:
     runs-on: ubuntu-latest
-    # The metadata validation workflow runs on `pull_request`, so its definition is
-    # read from the pull request's own branch. A fork could therefore weaken its own
-    # validation by editing it. Fork pull requests have no business touching CI
-    # configuration, so reject that outright. Branches pushed to this repository
-    # already require write access and are skipped.
-    if: github.event.pull_request.head.repo.full_name != github.repository
+    # The metadata validation workflow runs on `pull_request`, so its definition
+    # is read from the pull request's own branch and a pull request can weaken
+    # its own validation by editing it. This job runs from the base branch via
+    # `pull_request_target`, where a pull request cannot reach it, and fails any
+    # pull request that touches CI configuration.
+    #
+    # This deliberately applies to EVERY pull request, maintainers included.
+    # Contributors and maintainers alike work from personal forks here, so
+    # neither branch location nor author association gives a reliable exemption.
+    # A legitimate CI change is expected to show a red check and be merged by an
+    # admin who has reviewed the diff.
     steps:
-      - name: Reject fork pull requests touching CI configuration
+      - name: Reject pull requests touching CI configuration
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR: ${{ github.event.pull_request.number }}
@@ -37,11 +42,11 @@ jobs:
             /repos/${GITHUB_REPOSITORY}/pulls/${PR}/files \
             --jq '.[].filename' | grep '^\.github/' || :)
           if [ -n "$offending" ]; then
-            echo "::error::Fork pull requests may not modify CI configuration. Offending files:"
+            echo "::error::Pull requests may not modify CI configuration. Offending files:"
             echo "$offending"
             exit 1
           fi
-          echo "No .github/ changes in this fork pull request."
+          echo "No .github/ changes in this pull request."
 
   Mainnet-Check:
     runs-on: ubuntu-latest
