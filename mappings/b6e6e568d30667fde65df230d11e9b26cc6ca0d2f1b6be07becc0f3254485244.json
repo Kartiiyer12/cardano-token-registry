@@ -1,0 +1,44 @@
+{
+  "subject": "b6e6e568d30667fde65df230d11e9b26cc6ca0d2f1b6be07becc0f3254485244",
+  "policy": "82018282051a071fa7b68200581c0ea46093f844a4c56f1a059daed81d2089098c2b6e5fb6289db42352",
+  "name": {
+    "sequenceNumber": 0,
+    "value": "Threadline",
+    "signatures": [
+      {
+        "signature": "af69b91f6a08b0455a22aa31f273c2a4f9b7913aff0704e3586ff6165a88373fe30ccf6b7f49b67a3a9c9afe9d8a0f4e6b08620142a543fcb6ae3ad742e0bf06",
+        "publicKey": "81985212dd78aa4e96263dafed18a3fadb445ff9ff2f16364c01ece8838373d2"
+      }
+    ]
+  },
+  "description": {
+    "sequenceNumber": 0,
+    "value": "xggfbgfbgf",
+    "signatures": [
+      {
+        "signature": "e8dadad666002923833846d9a8327888aa7891326b6264f03d5a2e34caf9a14d52873fe7239cbe58b6e65f160b039d78adb4ef1c87e9176aa232925b398ac805",
+        "publicKey": "81985212dd78aa4e96263dafed18a3fadb445ff9ff2f16364c01ece8838373d2"
+      }
+    ]
+  },
+  "ticker": {
+    "sequenceNumber": 0,
+    "value": "THRD",
+    "signatures": [
+      {
+        "signature": "b4e9a0ee1e8aa4f2445f4090450bf43cc880a853e83e4b3a531c9d411a33c1339ca4c260282e4b19cc55e28bd7f86869a99a0b4ebf7b7fa367cc4800cb1a7d0b",
+        "publicKey": "81985212dd78aa4e96263dafed18a3fadb445ff9ff2f16364c01ece8838373d2"
+      }
+    ]
+  },
+  "decimals": {
+    "sequenceNumber": 0,
+    "value": 6,
+    "signatures": [
+      {
+        "signature": "543a9a5c45bb254aafe03effd20c2ebe924b56de1f36edc7ebcc416fe126bfe69186ada10efd0db12df39dad55586807534fd7250fe24bcba1f602f9e4e89e03",
+        "publicKey": "81985212dd78aa4e96263dafed18a3fadb445ff9ff2f16364c01ece8838373d2"
+      }
+    ]
+  }
+}
