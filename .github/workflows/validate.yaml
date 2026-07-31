@@ -217,3 +217,5 @@ jobs:
         run: |
           echo "There were errors during the optional validation steps. Please check the according logs."
           exit 1
+
+# Touched by test/neg-guard-ci-change to verify guard-ci-integrity fires.
