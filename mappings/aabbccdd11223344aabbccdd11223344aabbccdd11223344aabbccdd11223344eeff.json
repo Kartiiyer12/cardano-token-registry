@@ -1,0 +1,13 @@
+{
+    "subject": "aabbccdd11223344aabbccdd11223344aabbccdd11223344aabbccdd1122334499aa",
+    "name": {
+        "signatures": [],
+        "sequenceNumber": 0,
+        "value": "Test3-SubjectFilenameMismatch"
+    },
+    "description": {
+        "signatures": [],
+        "sequenceNumber": 0,
+        "value": "TEST CASE 3: Both lowercase but subject does not match filename. Should FAIL: subject-mismatch"
+    }
+}
