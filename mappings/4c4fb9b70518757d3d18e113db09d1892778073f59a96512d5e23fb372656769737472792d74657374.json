@@ -1,0 +1,44 @@
+{
+  "subject": "4c4fb9b70518757d3d18e113db09d1892778073f59a96512d5e23fb372656769737472792d74657374",
+  "policy": "82008200581c474b7541caf46d30e186c0296fb964f95291a84435ba6e657e8acba4",
+  "name": {
+    "value": "registry-test",
+    "sequenceNumber": 0,
+    "signatures": [
+      {
+        "publicKey": "eeec9892fbcf2817f065ec6c9dbd540d28aea9b38671ad0bcc64fe4f6d0b7aa4",
+        "signature": "401017669c40f08c7bf42e125cf3b7600f0f4ed5d67b6d336b4bb50c5784bbd241308b6398efbf0829d44e40fc361987f1ebac8af11b4ab47d37782abc25cc01"
+      }
+    ]
+  },
+  "description": {
+    "value": "test",
+    "sequenceNumber": 0,
+    "signatures": [
+      {
+        "publicKey": "eeec9892fbcf2817f065ec6c9dbd540d28aea9b38671ad0bcc64fe4f6d0b7aa4",
+        "signature": "24a8f616232784d5fc3d80d6f38931c24b1cc3d6dbc842429a40eb22c70d64a042e95985720f0b84633ab358488869a2297ac62a99ee62d3d7b5933f16756601"
+      }
+    ]
+  },
+  "ticker": {
+    "value": "rtst",
+    "sequenceNumber": 0,
+    "signatures": [
+      {
+        "publicKey": "eeec9892fbcf2817f065ec6c9dbd540d28aea9b38671ad0bcc64fe4f6d0b7aa4",
+        "signature": "42e2bccc5488de122acd65ed5601b885356a74aa3c0dbaa1597ebc7e3feeec02fb8752336deb168a1099df2570d48159797190e09fa08581c913a75d8036d40f"
+      }
+    ]
+  },
+  "decimals": {
+    "value": 6,
+    "sequenceNumber": 0,
+    "signatures": [
+      {
+        "publicKey": "eeec9892fbcf2817f065ec6c9dbd540d28aea9b38671ad0bcc64fe4f6d0b7aa4",
+        "signature": "1934a0778244e4723f776d30f8d2f2955b67fc435057f86dddd0f2a1336ed89aa06083ab00a0669c72a68d9d3e9ac2e9172c6d6a4878c9f51c9f4865f2894203"
+      }
+    ]
+  }
+}
